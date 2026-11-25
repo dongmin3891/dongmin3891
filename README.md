@@ -1,29 +1,43 @@
-<h1 align="center">김동민 · Frontend Developer</h1>
+<h1 align="center">안녕하세요 👋 프론트엔드 개발자 김동민입니다</h1>
 
 <p align="center">
-  팀과 함께 서비스에 필요한 해결책을 찾고,<br />
-  개발부터 운영까지 책임지는 프론트엔드 개발자입니다.
-</p>
-
-<p align="center">
-  <a href="https://ddongmy.com/resume"><strong>이력서</strong></a>
-  &nbsp; · &nbsp;
-  <a href="https://ddongmy.com"><strong>포트폴리오 · 기술 블로그</strong></a>
-  &nbsp; · &nbsp;
-  <a href="mailto:rlaehdals224@gmail.com"><strong>이메일</strong></a>
+  6명이던 스타트업이 40명으로 성장하는 동안, 팀과 함께 웹과 WebView 서비스를 만들고 운영했습니다.<br />
+  U+tv모바일에서는 시청자가 홈을 열고 첫 콘텐츠를 보기까지의 시간을 줄이는 일을 맡았습니다.<br />
+  운영 중 문제가 생기면 동료들과 발생 조건을 재현하고, 측정 결과를 보며 해결 방법을 정합니다.
 </p>
 
 <br />
 
-## 함께 일하는 방식
+<p align="center">
+  <a href="https://ddongmy.com/resume"><img src="./assets/resume.svg" width="170" alt="김동민 이력서 보기" /></a>
+  <br /><br />
+  <a href="https://sudden-minute-b6b.notion.site/422151dc9c7281e1aaaffe65212c857c"><img src="./assets/portfolio.svg" width="170" alt="김동민 노션 포트폴리오 보기" /></a>
+</p>
 
-6명 규모의 초기 스타트업에 합류해 조직이 40명으로 성장하는 과정을 함께하며, 다양한 서비스의 개발과 운영을 경험했습니다.
+<br />
 
-기술을 선택할 때는 해결하려는 문제와 서비스 환경, 동료들이 이해하고 유지보수할 수 있는 구조를 함께 고민합니다. 운영 중 문제가 생기면 발생 조건을 재현하고 데이터를 확인하며 원인을 좁혀갑니다.
+<h2 align="center">Tech Stacks 🛠️</h2>
 
-동료들과 선택의 근거를 나누고, 팀이 함께 판단하고 개선할 수 있도록 일하는 것을 중요하게 생각합니다.
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,vue,tailwind,playwright,docker" alt="React, Next.js, TypeScript, JavaScript, Vue, Tailwind CSS, Playwright, Docker" />
+</p>
+<p align="center">TanStack Query · Zustand · Datadog RUM · GitHub Actions · Argo CD</p>
 
-## 대표 프로젝트
+<br />
+
+<h2 align="center">Development Log ✍️</h2>
+
+<p align="center">
+  <a href="https://ddongmy.com/log/nextjs-ssr-queryclient-gctime-oom">Next.js SSR 서버는 왜 같은 요청을 반복할수록 메모리를 더 썼을까?</a><br />
+  <a href="https://ddongmy.com/log/moatv-tanstack-query-v5-ios14-webview">TanStack Query v5 전환 후 iOS 14 WebView에서 생긴 문제</a><br />
+  <a href="https://ddongmy.com/log/mobiletv-mobx-autorun-memory-leak">화면을 닫아도 남아 있던 MobX autorun 추적하기</a>
+</p>
+<p align="center"><a href="https://ddongmy.com/log"><strong>개발 기록 더 보기 →</strong></a></p>
+
+<br />
+
+<details>
+<summary>📦 <strong>대표 프로젝트</strong></summary>
 
 | 프로젝트 | 소개 | 기술 |
 | --- | --- | --- |
@@ -37,35 +51,14 @@
   <a href="https://www.npmjs.com/package/next-manual-scroll-restoration"><img alt="next-manual-scroll-restoration 월간 다운로드" src="https://img.shields.io/npm/dm/next-manual-scroll-restoration?logo=npm&label=downloads" /></a>
 </p>
 
-## 주요 기술
-
-<p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,vue,tailwind&theme=light" alt="React, Next.js, TypeScript, JavaScript, Vue, Tailwind CSS" />
-</p>
-
-- **상태 관리** · TanStack Query, Zustand, Pinia
-- **테스트·관측** · Playwright, Jest, React Testing Library, Datadog RUM
-- **개인 서비스 개발·운영** · NestJS, PostgreSQL, Docker, K3s, GitHub Actions, Argo CD
-
-## 기술 기록
-
-직접 겪은 문제의 원인과 선택의 근거, 검증 과정을 정리했습니다.
-
-- [홈 첫 화면 데이터만 SSR Prefetch한 이유](https://github.com/dongmin3891/ddongmy-os/blob/main/docs/adr/0001-home-selective-ssr-prefetch.md)  
-  초기 콘텐츠 노출과 서버 응답 비용을 고려한 렌더링 전략 및 단계별 Lighthouse 측정.
-- [Playwright로 조회수 집계 회귀를 검증한 기록](https://github.com/dongmin3891/ddongmy-os/blob/main/docs/verification/playwright-log-view-regression.md)  
-  API 실패 후 재시도가 막히는 문제를 재현하고 정상 집계·재시도·중복 방지를 검증한 과정.
-- [Next.js 의존성 보안 점검 기록](https://github.com/dongmin3891/ddongmy-os/blob/main/docs/security/audits/2026-11-09.md)  
-  설치 버전과 영향 범위 확인, 의존성 패치 및 로컬 회귀 검증.
+</details>
 
 <details>
-<summary>GitHub 통계</summary>
+<summary>📊 <strong>GitHub 활동</strong></summary>
 
-<br />
-
-<p>
-  <img alt="김동민의 GitHub 활동 통계" src="https://github-readme-stats.vercel.app/api?username=dongmin3891&count_private=true&show_icons=true&theme=transparent&hide_border=true" />
-  <img alt="공개 저장소의 사용 언어 비율" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dongmin3891&layout=compact&theme=transparent&hide_border=true" />
-</p>
+- [공개 저장소](https://github.com/dongmin3891?tab=repositories)
+- [직접 만든 스크롤 복원 라이브러리의 커밋 기록](https://github.com/dongmin3891/next-manual-scroll-restoration/commits)
 
 </details>
+
+<p align="center"><a href="mailto:rlaehdals224@gmail.com">이메일로 연락하기</a></p>
