@@ -58,8 +58,3 @@
   <img src="./assets/top-languages.svg" alt="공개 저장소 주요 언어">
 </p>
 </details>
-
-<details>
-<summary>🎨 <b>Portfolio Website (deprecated)</b></summary>
-<a href="https://dongmin3891.github.io/portfolio/">이전 포트폴리오 보러가기 👉</a>
-</details>
