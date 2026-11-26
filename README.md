@@ -12,7 +12,7 @@
 <br />
 
 <p align="center">
-  <a href="https://github.com/dongmin3891/dongmin3891/blob/main/assets/resume.pdf">
+  <a href="https://cdn.jsdelivr.net/gh/dongmin3891/dongmin3891@main/assets/resume.pdf">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="./assets/resume-dark.svg">
       <img src="./assets/resume.svg" alt="김동민 이력서">
